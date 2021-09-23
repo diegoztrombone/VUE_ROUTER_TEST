@@ -14,9 +14,9 @@ export default {
     return {
       counter: 0,
       text: {
-        title: "Pulsa el botón",
-        incBtn: "+",
-        decBtn: "-",
+        title: "Click me",
+        incBtn: "More",
+        decBtn: "Less",
       },
     };
   },

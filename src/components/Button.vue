@@ -1,8 +1,7 @@
 <template>
   <div>
-    <h2>{{ text.title }}</h2>
-    <button @click="addCounter">{{ text.incBtn }}</button>
-    <button :disabled="!changeFlag" @click="dimCounter">{{ text.decBtn }}</button>
+    <button @click="addCounter" class="bn3637 bn37">{{ text.incBtn }}</button>
+    <button :disabled="!changeFlag" @click="dimCounter" class="bn3637 bn37">{{ text.decBtn }}</button>
   </div>
 </template>
 <script>
